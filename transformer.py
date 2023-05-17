@@ -145,7 +145,10 @@ class Block(nn.Module):
         super().__init__()
         head_size = n_embd // n_head
         self.sa = MultiHeadAttention(n_head, head_size)
-        self.ffwd = FeedForward(n_embd)
+        self.ffwd = FeedForward(n_embd)  # computation on per-node (per-token) level (B, T, C)
+                                         # allows tokens to "think" about info gathered from
+                                         # communication thru self-attention.
+                
         self.ln1 = nn.LayerNorm(n_embd)  # layer norm acts as per-token tranformation
                                          # that normalizes features initially
                                          # with guassian 0 mean, unit var distr.
