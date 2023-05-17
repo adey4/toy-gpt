@@ -209,7 +209,7 @@ class GPT(nn.Module):
         #x = self.ffwd(x) # computation on per-node (per-token) level (B, T, C)
                          # allows tokens to "think" about info gathered from
                          # communication thru self-attention
-        logits = self.lm_head(tok_emb) #(B, T, vocab_size)
+        logits = self.lm_head(x) #(B, T, vocab_size)
         
         # measure quality of logits based on target (how well are we predicting
         # next character)
