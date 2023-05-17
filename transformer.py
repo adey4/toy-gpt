@@ -253,7 +253,7 @@ print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
 # %%
-# train the Bigram model
+# train the model
 for iter in range(max_iters):
 
     # every once in a while evaluate the loss on train and val sets
