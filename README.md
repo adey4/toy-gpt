@@ -33,7 +33,7 @@ BENVOLIO:
 Two sir, the earth proofs rids too come hither;
 I thank you out, as thought sook for Ireland,
 
-FRIAR LAUAURENCE:
+FRIAR LAURENCE:
 His son, do your morself, that leaven your honours
 Sufferable in more and suffer five.
 A horse! High-graced York rights. And bother Montague
