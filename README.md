@@ -6,7 +6,7 @@
 - PyTorch: `conda install pytorch torchvision -c pytorch`
 
 ### Limitations
-- Expensive to train: ~1 hr on M1 Mac
+- Expensive to train: ~1 hr on Apple's M1 Pro Chip
 - Training efficiency can be improved with further optimizations
 
 ### Example Output
