@@ -3,7 +3,7 @@
 #
 ### Dependencies
 - Python3
-- Pytorch: `conda install pytorch torchvision -c pytorch`
+- PyTorch: `conda install pytorch torchvision -c pytorch`
 
 ### Limitations
 - Expensive to train: ~1 hr on M1 Mac
