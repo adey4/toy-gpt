@@ -1,5 +1,5 @@
 # Toy-GPT
-#### Toy-GPT is a decoder-only transformer built from scratch using PyTorch, trained to generate natural language similar to input.txt
+#### Toy-GPT is a decoder-only transformer built from scratch using PyTorch, trained to generate natural language similar to [input.txt](input.txt)
 #
 ### Dependencies
 - Python3
