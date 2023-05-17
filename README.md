@@ -41,4 +41,4 @@ A horse! High-graced York rights. And bother Montague
 
 ### Sources
 - ["Attention is All You Need" by Vaswani et al.](https://doi.org/10.48550/arXiv.1706.03762)
-- [Andrej Karpathy on Building GPT from Scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- ["Let's build GPT: from scratch, in code, spelled out." by Andrej Karpathy](https://www.youtube.com/watch?v=kCc8FmEb1nY)
