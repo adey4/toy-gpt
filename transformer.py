@@ -168,7 +168,7 @@ class GPT(nn.Module):
     
     def __init__(self):
         super().__init__()
-        # each token has a unique row of size vocab_size to read logits from.
+        # each token has a unique row of size n_embd to read token embeddings from
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
         self.position_embedding_table = nn.Embedding(block_size, n_embd)
         self.blocks = nn.Sequential(*[Block(n_embd, n_head=n_head) for _ in range(n_layer)])
