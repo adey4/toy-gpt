@@ -17,7 +17,7 @@ Is it strange?
 
 Herald:
 He's deceited, and children from his new spid
-Then whomen he dares to him: were he wors.
+Then whomen he dares to him: were he worse.
 
 BRUTUS:
 You have pirtly not him.
