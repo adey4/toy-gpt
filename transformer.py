@@ -165,7 +165,6 @@ class GPT(nn.Module):
     
     def __init__(self):
         super().__init__()
-        # each token directly reads logits for next token from lookup table.
         # each token has a unique row of size vocab_size to read logits from.
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
         self.position_embedding_table = nn.Embedding(block_size, n_embd)
