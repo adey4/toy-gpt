@@ -200,7 +200,7 @@ class GPT(nn.Module):
         # for each token in each context window 
         # (Time -> num. of tokens in context window) 
         # in each chunk (Batch -> number of chunks in batch),
-        # pull out the corresponding logits (Channel -> vocab_size/feature size)
+        # pull out the corresponding embeddings (Channel -> n_embd/feature size)
         # from the lookup table
         tok_emb = self.token_embedding_table(idx) # (Batch, Time, Channel=n_embd)
         pos_emb = self.position_embedding_table(torch.arange(T, device=device)) # (T, C)
@@ -224,7 +224,7 @@ class GPT(nn.Module):
             targets = targets.view(B*T)
             loss = F.cross_entropy(logits, targets)
         
-        # logits represent probability that a character is the correct next-word
+        # logits represent probability that a character is the correct next-token
         return logits, loss
     
     def generate(self, idx, max_new_tokens):
