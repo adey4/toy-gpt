@@ -6,8 +6,8 @@
 - PyTorch: `conda install pytorch torchvision -c pytorch`
 
 ### Limitations
-- Expensive to train: ~1 hr on Apple's M1 Pro Chip
-- Training efficiency can be improved with further optimizations
+- Training takes ~1 hr on Apple's M1 Pro Chip
+- Language generation quality is limited by compute
 
 ### Example Output
 Trained on Shakespearean text:
