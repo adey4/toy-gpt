@@ -7,7 +7,7 @@
 
 ### Limitations
 - Training takes ~1 hr on Apple's M1 Pro Chip
-- Language generation quality is limited by compute
+- Quality is limited by compute and memory
 
 ### Example Output
 Trained on Shakespearean text:
